@@ -9,5 +9,15 @@ function lastImageSelector()  {
 }
 
 function ninjaBabySelector() {
-  var ninjaBaby = $('')
+  var ninjaBaby = $('#baby-ninja');
+  return ninjaBaby;
+}
+
+function divSelector() {
+  var pics = $('.pics');
+  return pics;
+}
+
+function firstListItem() {
+  var firstItem = $('')
 }
